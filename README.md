@@ -168,6 +168,3 @@ Feedstock Maintainers
 
 * [@yu-ta-sato](https://github.com/yu-ta-sato/)
 
-
-<!-- dummy commit to enable rerendering -->
-
