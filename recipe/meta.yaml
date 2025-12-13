@@ -25,10 +25,12 @@ requirements:
     - networkx >=2.8
     - osmnx >=2.0.3
     - shapely >=2.1.0
-    - geopandas >0.12.0
+    - geopandas >=1.1.1
     - libpysal >=4.12.1
     - momepy
-    - overturemaps
+    - overturemaps >=0.17.0
+    - rustworkx >=0.17.1
+    - scipy >=1.10.0
 
 test:
   imports:
@@ -45,7 +47,7 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   description: |
-    city2graph is a Python library for converting datasets of geospatial relations into
+    City2Graph is a Python library for converting datasets of geospatial relations into
     graphs. It is designed to facilitate graph data analytics in particular for urban
     studies and spatial analysis. It supports PyTorch Geometric to enable graph
     representation learning, such as Graph Neural Networks (GNNs).
