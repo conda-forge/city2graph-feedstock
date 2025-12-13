@@ -25,10 +25,12 @@ requirements:
     - networkx >=2.8
     - osmnx >=2.0.3
     - shapely >=2.1.0
-    - geopandas >0.12.0
+    - geopandas >=1.1.1
     - libpysal >=4.12.1
     - momepy
-    - overturemaps
+    - overturemaps >=0.17.0
+    - rustworkx >=0.17.1
+    - scipy >=1.10.0
 
 test:
   imports:
