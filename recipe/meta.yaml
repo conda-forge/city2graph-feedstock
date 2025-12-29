@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/city2graph-{{ version }}.tar.gz
-  sha256: 46ea12b81c77d32cfd5ef8d665cf901d5795a58a193e8e0fb56af7bcfd010d4e
+  sha256: d63a230719256ac28ffc7b49a0ec9ea082d51d7ffb69210863f6ea6c3346cb03
 
 build:
   noarch: python
