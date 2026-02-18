@@ -13,7 +13,7 @@ Development: https://github.com/c2g-dev/city2graph
 
 Documentation: https://city2graph.net
 
-city2graph is a Python library for converting datasets of geospatial relations into
+City2Graph is a Python library for converting datasets of geospatial relations into
 graphs. It is designed to facilitate graph data analytics in particular for urban
 studies and spatial analysis. It supports PyTorch Geometric to enable graph
 representation learning, such as Graph Neural Networks (GNNs).
