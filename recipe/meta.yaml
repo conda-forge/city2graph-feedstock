@@ -26,6 +26,7 @@ requirements:
     - osmnx >=2.0.3
     - shapely >=2.1.0
     - geopandas >=1.1.1
+    - geopy
     - libpysal >=4.12.1
     - momepy
     - overturemaps >=0.17.0
