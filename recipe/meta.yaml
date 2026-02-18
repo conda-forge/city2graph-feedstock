@@ -29,7 +29,7 @@ requirements:
     - geopy >=2.4.0
     - libpysal >=4.12.1
     - momepy
-    - overturemaps >=0.18.1
+    - overturemaps >=0.17.0
     - rustworkx >=0.17.1
     - scipy >=1.10.0
 
