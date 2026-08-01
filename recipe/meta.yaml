@@ -1,6 +1,7 @@
 {% set name = "city2graph" %}
-{% set version = "0.4.0" %}
-{% set python_min = "3.11" %}
+{% set version = "1.0.0" %}
+{% set python_min = "3.12" %}
+{% set python_max = "3.15" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/city2graph-{{ version }}.tar.gz
-  sha256: 17ed4a6eb76e9bce96e2167a881f26c3629fcc5857d9c3259407d03d97c48547
+  sha256: 5917c04ea6b18331539030ccc046c0487fa86f652d7968fff8ff6488c7a68e9d
 
 build:
   noarch: python
@@ -21,16 +22,18 @@ requirements:
     - hatchling
     - pip
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<{{ python_max }}
     - duckdb >=1.1.0
     - networkx >=2.8
-    - osmnx >=2.0.3
     - shapely >=2.1.0
     - geopandas >=1.1.1
     - geopy >=2.4.0
     - libpysal >=4.12.1
-    - momepy
+    - momepy >=1.0.0
+    - numpy >=1.24
     - overturemaps >=0.18.1
+    - pandas >=2.0
+    - pyproj >=3.5
     - rustworkx >=0.17.1
     - scipy >=1.10.0
 
