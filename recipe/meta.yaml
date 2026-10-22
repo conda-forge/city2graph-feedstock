@@ -1,5 +1,5 @@
 {% set name = "city2graph" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set python_min = "3.12" %}
 {% set python_max = "3.15" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/city2graph-{{ version }}.tar.gz
-  sha256: 5917c04ea6b18331539030ccc046c0487fa86f652d7968fff8ff6488c7a68e9d
+  sha256: c1413316d05d49bb3b2a84dbc47c0ded23bc2931f0ccf0cc4037f90fc200538c
 
 build:
   noarch: python
