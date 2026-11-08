@@ -1,5 +1,5 @@
 {% set name = "city2graph" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.12" %}
 {% set python_max = "3.15" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/city2graph-{{ version }}.tar.gz
-  sha256: c1413316d05d49bb3b2a84dbc47c0ded23bc2931f0ccf0cc4037f90fc200538c
+  sha256: e951e778df3ce5b6dd6b91587bb33d4639ff712786e92df76f0506173d75f993
 
 build:
   noarch: python
@@ -36,6 +36,8 @@ requirements:
     - pyproj >=3.5
     - rustworkx >=0.17.1
     - scipy >=1.10.0
+    - timezonefinder >=9.1,<10
+    - timezonefinder-data ==4.2026.6
 
 test:
   imports:
